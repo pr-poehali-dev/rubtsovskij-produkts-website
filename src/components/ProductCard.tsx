@@ -34,7 +34,7 @@ export default function ProductCard({ product, onAddToCart }: ProductCardProps) 
         />
         <div className="absolute top-3 left-3 flex flex-col gap-2">
           {product.isNew && (
-            <Badge className="bg-primary text-white">Новинка</Badge>
+            <Badge className="bg-primary text-white">Премиум</Badge>
           )}
           {product.discount && (
             <Badge variant="destructive">-{product.discount}%</Badge>
