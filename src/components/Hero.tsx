@@ -15,7 +15,7 @@ export default function Hero({ onNavigate }: HeroProps) {
           <div className="space-y-6 animate-fade-in">
             <div className="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
               <Icon name="Award" size={18} className="text-primary" />
-              <span className="text-sm font-medium">Работаем для Вас с2010 года.</span>
+              <span className="text-sm font-medium">Работаем для Вас с 2010 года.</span>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
